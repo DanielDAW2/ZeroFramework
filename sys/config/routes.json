@@ -1,0 +1,80 @@
+{
+    "OtIndex":
+    {
+        "path": "/ot",
+        "controller": "OtController",
+        "action":"index"
+    },
+    "OtEdit":
+    {
+        "path": "/ot/%id%/edit/",
+        "controller": "OtController",
+        "action":""
+    },
+    "OtMats":
+    {
+        "path": "/ot/mats",
+        "controller": "OtController",
+        "action":"getOrderMats"
+    },
+    "EquiposView":
+    {
+        "path": "/equipos",
+        "controller": "EquiposController",
+        "action":"index"
+    },
+    "OtInsert":
+    {
+        "path": "/ot/insert/new",
+        "controller": "OtController",
+        "action":"insertOrder"
+    },
+    "OtUpdate":
+    {
+        "path": "/ot/update",
+        "controller": "OtController",
+        "action":"updateOrder"
+    },
+	"index":
+    {
+        "path": "/",
+        "controller": "DefaultController",
+        "action":"Hello"
+    },
+	"getAllOts":
+    {
+        "path": "/ot/getALL",
+        "controller": "OtController",
+        "action":"getAllOt"
+    },
+	"getAllOtsByClinica":
+    {
+        "path": "/ot/getALL/clinica",
+        "controller": "OtController",
+        "action":"getAllOtByClinica"
+    },
+	"getAllOtSrv":
+    {
+        "path": "/ot/getALL/Srv",
+        "controller": "OtController",
+        "action":"getAllOtSrv"
+    },
+	"getMarcas":
+    {
+        "path": "/marcas",
+        "controller": "MarcasController",
+        "action":"findAll"
+    },
+	"getPn":
+    {
+        "path": "/partnumber",
+        "controller": "EquiposController",
+        "action":"getPN"
+    },
+    "TestInsertSQL":
+    {
+        "path": "/test/insert",
+        "controller": "TestController",
+        "action":"testInsert"
+    }
+}

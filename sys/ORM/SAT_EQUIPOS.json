@@ -1,0 +1,23 @@
+{
+   "SAT_EQ_CLASES":
+   {
+       "ALIAS":"saq",
+       "CHILD":"ID_SAT_EQ_CLASES",
+       "KEY":"ID_SAT_EQ_CLASES",
+       "TYPE":"INNER"
+   },
+   "SAT_MARCAS": 
+   {
+    "ALIAS":"sma",
+    "CHILD":"ID_SAT_MARCAS",
+    "KEY":"ID_SAT_MARCAS",
+    "TYPE":"INNER"
+    },
+    "SAT_MODELOS": 
+    {
+        "ALIAS":"smo",
+        "CHILD":"ID_SAT_MODELOS",
+        "KEY":"ID_SAT_MODELOS",
+        "TYPE":"INNER"
+    }
+}

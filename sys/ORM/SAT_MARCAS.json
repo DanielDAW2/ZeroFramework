@@ -1,0 +1,8 @@
+{
+    "SAT_MODELOS": {
+        "ALIAS":"smo",
+        "CHILD":"ID_SAT_MARCAS",
+        "KEY":"ID_SAT_MARCAS",
+        "TYPE":"INNER"
+    }
+}

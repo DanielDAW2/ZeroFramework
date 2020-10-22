@@ -1,0 +1,44 @@
+{
+    "SERIES": {
+        "ALIAS":"ser",
+        "CHILD":"ID_SERIES",
+        "KEY":"ID_SERIES",
+        "TYPE":"INNER"
+    },
+    "SAT_ORDEN_SITUACION": {
+        "ALIAS":"sit",
+        "CHILD":"ID_SAT_ORDEN_SITUACION",
+        "KEY":"ID_SAT_ORDEN_SITUACION",
+        "TYPE":"INNER"
+    },
+    "SAT_ORDPRIORIDAD": {
+        "ALIAS":"ordprior",
+        "CHILD":"ID_SAT_ORDPRIORIDAD",
+        "KEY":"ID_SAT_ORDPRIORIDAD",
+        "TYPE":"INNER"
+    },
+    "PRESUPUESTOS": {
+        "ALIAS":"PR",
+        "CHILD":"ID_SAT_ORDEN_TRABAJO",
+        "KEY":"ID_SAT_ORDEN_TRABAJO",
+        "TYPE":"LEFT"
+    },
+    "LINEAS_PRESUPUESTOS": {
+        "ALIAS":"LPR",
+        "CHILD":"ID_PRESUPUESTOS",
+        "KEY":"ID_PRESUPUESTOS",
+        "TYPE":"INNER"
+    },
+	"SAT_EQUIPOS": {
+        "ALIAS":"seq",
+        "CHILD":"ID_SAT_EQUIPOS",
+        "KEY":"ID_SAT_EQUIPOS",
+        "TYPE":"LEFT"
+    },
+    "ARTICULOS": {
+        "ALIAS":"ART",
+        "CHILD":"ID_ARTICULOS",
+        "KEY":"ID_ARTICULOS",
+        "TYPE":"INNER"
+    }
+}
